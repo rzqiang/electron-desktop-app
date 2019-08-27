@@ -21,15 +21,15 @@ module.exports = {
         ]
     },
     electronPackagerConfig: {
-        name: 'zz_app',
+        name: 'blog_app',
         packageManager: 'npm',
         icon: './images/favicon.icon'
     },
     electronWinstallerConfig: {
-        name: 'zz_app',
+        name: 'blog_app',
         authors: 'rzqiangchina@gmail.com',
         owners: 'rzqiangchina@gmail.com',
-        description: 'zz_app',
+        description: 'blog_app',
         iconUrl: 'http://blog.coder98.com/images/favicon.png',
         setupIcon: './images/favicon.ico',
         loadingGif: './images/loading.gif'
@@ -44,7 +44,7 @@ module.exports = {
         name: ''
     },
     windowsStoreConfig: {
-        packageName: 'zz_app',
-        name: 'zz_app'
+        packageName: 'blog_app',
+        name: 'blog_app'
     }
 };
